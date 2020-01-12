@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
-    tools:context="com.mingrisoft.iosdialog.MainActivity">
+    tools:context="com.zhaohm.iosdialog.MainActivity">
     <!-- 退出当前账号按钮-->
     <Button
         android:id="@+id/btn_exit_number"
