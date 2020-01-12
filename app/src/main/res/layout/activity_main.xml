@@ -19,4 +19,30 @@
         android:paddingLeft="10dp"
         android:text="@string/text_exit_number"
         android:textSize="16sp" />
+    <!--<view-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="150dp"-->
+        <!--android:background="@color/grey"/>-->
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:onClick="OnUpdate"
+        android:paddingLeft="10dp"
+        android:text="@string/text_update"
+        android:textSize="16sp" />
+
+    <!--<view-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="98dp"-->
+        <!--android:background="@color/grey" />-->
+
 </RelativeLayout>
