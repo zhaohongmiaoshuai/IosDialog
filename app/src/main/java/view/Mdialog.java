@@ -12,9 +12,9 @@ import android.widget.TextView;
 import com.zhaohm.iosdialog.R;
 
 public class Mdialog extends Dialog {
-    TextView tv;
-    Button button_cancel;
-    Button button_exit;
+    private TextView tv;
+    private Button button_cancel;
+    private Button button_exit;
 
     //自定义构造方法
     public Mdialog(Context context) {
